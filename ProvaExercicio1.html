@@ -1,0 +1,46 @@
+<html lang = "en" ng-app="jogo">
+<head>
+    <title>Jogo da Forca</title>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jogo da Memoria</title>
+    <link style href="jogoM.css" media="screen" title="no title" rel="stylesheet"></link>
+	  <link href="css/bootstrap.min.css" rel="stylesheet"></link>
+</head>
+<body>
+
+			<center><h1>Exercicio 1</h1></center>
+		<center>Criado por Thiago Ribeiro Silva ADS 2016 -1</center>
+
+
+    <div class = "container" ng-controller = "dados">
+
+			<center>{{conectar()}}...
+      </br>
+      <button ng-click = 'jogar()'> Jogar... </button>
+      </br></br></br></br>
+      <img src = "{{numerosort}}">
+
+
+
+
+
+      </center>
+
+
+
+
+    </div>
+
+
+
+
+    <script src="jquery/jquery-1.12.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  	<script src="angular/angular.min.js"></script>
+  	<script src="exerc.js" charset="utf-8"></script>
+
+  </body>
+  </html>
